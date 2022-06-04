@@ -669,10 +669,10 @@ skills__bar{
 
 }
 .swiper-button-prev{
-  left: -1.1rem;
+  left: 0rem;
 }
 .swiper-button-next{
-  right: -1.1rem;
+  right: 0rem;
 }
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
   bottom: -2rem;
