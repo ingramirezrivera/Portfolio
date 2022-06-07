@@ -130,8 +130,9 @@ body.dark-theme{
 /*==================== LAYOUT CSS ====================*/
 .container {
   max-width: 768px;
-  margin-left: var(--mb-24);
-  margin-right: var(--mb-24);
+  padding-left: var(--mb-24);
+  padding-right: var(--mb-24);
+  margin: 0 auto;
 }
 .grid {
   display: grid;
@@ -465,17 +466,41 @@ skills__bar{
   width: 90%;
 }
 .skills__css{
-  width: 70%;
+  width: 85%;
 }
 .skills__js{
-  width: 70%;
+  width: 75%;
 }
 .skills__react{
-  width: 85%;
+  width: 70%;
+}
+.skills__boostrap{
+  width: 60%;
+}
+.skills__java{
+  width: 10%;
+}
+.skills__nodejs{
+  width: 30%;
 }
 .skills__close .skills__list{
   height: 0;
   overflow: hidden;
+}
+.skills__firebase{
+  width: 10%;
+}
+.skills__mongodb{
+  width: 10%;
+}
+.skills__figma{
+  width: 60%;
+}
+.skills__ui{
+  width: 40%;
+}
+.skills__ux{
+  width: 30%;
 }
 .skills__open .skills__list{
   height: max-content;
@@ -508,7 +533,7 @@ skills__bar{
 .qualification__data{
   display: grid;
   height: 85px;
-  grid-template-columns: 0.2fr max-content 1fr;
+  grid-template-columns: 0.15fr max-content 1fr;
   column-gap: 1.5rem;
 }
 .qualification__title{
@@ -723,7 +748,6 @@ skills__bar{
 
 /*==================== CONTACT ME ====================*/
 .contact__container{
-  margin: 0 2rem;
   row-gap: 3rem;
 }
 .contact__information{
@@ -792,7 +816,7 @@ skills__bar{
   padding-top: 2rem;
 }
 .footer__container{
-  margin: 4rem;
+  margin: 0 20%;
   row-gap:  3.5rem;
 }
 .footer__bg{
